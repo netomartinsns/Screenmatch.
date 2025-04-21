@@ -8,8 +8,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("O pestinha");
+        Filme meuFilme = new Filme("O pestinha");
         meuFilme.setAnoDeLançamento(1998);
         meuFilme.setDuracaoEmMinutos(198);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
@@ -32,8 +31,7 @@ public class Principal {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("O pederoso chefão");
+        Filme outroFilme = new Filme("O pederoso chefão");
         outroFilme.setAnoDeLançamento(1970);
         outroFilme.setDuracaoEmMinutos(180);
 
