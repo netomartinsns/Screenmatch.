@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.principal;
+
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -51,7 +53,6 @@ public class Principal {
         filmeDoPaulo.avalia(10);
 
         ArrayList<Filme> listaDeFilmes = new ArrayList<>();
-
         listaDeFilmes.add(filmeDoPaulo);
         listaDeFilmes.add(meuFilme);
         listaDeFilmes.add(outroFilme);
