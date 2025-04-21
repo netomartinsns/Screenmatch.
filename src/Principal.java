@@ -52,9 +52,9 @@ public class Principal {
         episodio.setTotalVisualizacoes(3000);
         filtro.filtra(episodio);
 
-        var filmeDoPaulo = new Filme();
+        var filmeDoPaulo = new Filme("Dogville");
         filmeDoPaulo.setDuracaoEmMinutos(200);
-        filmeDoPaulo.setNome("Dogville");
+        //filmeDoPaulo.setNome("Dogville");
         filmeDoPaulo.setAnoDeLançamento(2003);
         filmeDoPaulo.avalia(10);
 
