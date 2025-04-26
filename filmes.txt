@@ -1,0 +1,1 @@
+nome='Mad Max', anoDeLançamento=1979,duração88

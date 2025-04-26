@@ -1,0 +1,18 @@
+[
+  {
+    "Nome": "Mad Max",
+    "AnoDeLançamento": 1979,
+    "IncluidoNoPlano": false,
+    "SomaDasAvaliacoes": 0.0,
+    "TotalDeAvaliacoes": 0,
+    "DuracaoEmMinutos": 88
+  },
+  {
+    "Nome": "Matrix",
+    "AnoDeLançamento": 1993,
+    "IncluidoNoPlano": false,
+    "SomaDasAvaliacoes": 0.0,
+    "TotalDeAvaliacoes": 0,
+    "DuracaoEmMinutos": 60
+  }
+]
