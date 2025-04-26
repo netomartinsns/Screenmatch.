@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("O pestinha", 1998);
+        Filme meuFilme = new Filme("O pestinha", 1990);
         meuFilme.setDuracaoEmMinutos(198);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
