@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("mad max", 1979);
+        Filme meuFilme = new Filme("O pestinha", 1998);
         meuFilme.setDuracaoEmMinutos(198);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
@@ -30,7 +30,7 @@ public class Principal {
         lost.setMinutosPorEpisodio(50);
         System.out.println("Duração para maratonar Lost: " + lost.getDuracaoEmMinutos());
 
-        Filme outroFilme = new Filme("matrix", 1993);
+        Filme outroFilme = new Filme("O pederoso chefão", 1970);
         outroFilme.setDuracaoEmMinutos(180);
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
